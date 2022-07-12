@@ -6,7 +6,9 @@ export default function Header() {
       <h2>Your app</h2>
       <nav>
         <a href="/">Menu</a>
+        <a href="/">Locations</a>
         <a href="/">Contact</a>
+        <a href="/">Reservations</a>
       </nav>
     </header>
   )

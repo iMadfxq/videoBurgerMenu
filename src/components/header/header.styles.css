@@ -1,7 +1,25 @@
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 80px;
+  padding: 0px 20px;
+}
+
+header h2 {
+  font-size: 3rem;
 }
 
 header nav {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  font-size: 1.8rem;
 }
+
+nav a {
+  margin: 20px;
+}
+
