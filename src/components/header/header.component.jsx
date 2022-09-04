@@ -11,6 +11,7 @@ export default function Header() {
   }
 
   return (
+    <>
     <header>
       <h2>Your app</h2>
       <nav className="header__nav--desktop">
@@ -29,5 +30,8 @@ export default function Header() {
         </nav>
       )}
     </header>
+    <p></p>
+    
+    </>
   );
 }
